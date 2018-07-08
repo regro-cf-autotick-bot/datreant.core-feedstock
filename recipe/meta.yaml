@@ -1,5 +1,5 @@
 {% set version = "0.7.1" %}
-{% set sha256 = "c8df019d5a12613245db2e5ed1e11efa20e5b8870e3b0c9c030e2ceddf96b807"%}
+{% set sha256 = "c8df019d5a12613245db2e5ed1e11efa20e5b8870e3b0c9c030e2ceddf96b807" %}
 
 package:
   name: datreant.core
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
 
 requirements:
@@ -27,7 +27,7 @@ requirements:
     - six
     - fuzzywuzzy
     - python-levenshtein
-    - datreant
+    - datreant <=1.0
 
 test:
   imports:
