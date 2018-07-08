@@ -1,5 +1,5 @@
 {% set version = "0.7.1" %}
-{% set sha256 = "c8df019d5a12613245db2e5ed1e11efa20e5b8870e3b0c9c030e2ceddf96b807"%}
+{% set sha256 = "c8df019d5a12613245db2e5ed1e11efa20e5b8870e3b0c9c030e2ceddf96b807" %}
 
 package:
   name: datreant.core
